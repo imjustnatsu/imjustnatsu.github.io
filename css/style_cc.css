@@ -35,6 +35,11 @@ body.page1{
 a.bait{
     color: white;
 }
-h3{
+h2{
     color: white;
 }
+a.reel{
+    text-decoration:none;
+    color: white;
+}
+
