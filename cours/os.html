@@ -27,7 +27,7 @@
         </li>
     </ul>
     <ul>
-        <li>Faire attention a bien être dans le root et pas dans le home </li>
+        <li>"passwd x" permet de changer le mot d'un utilisateur (x)</li>
     </ul>
     <ul>
         <li>Faire attention a bien être dans le root et pas dans le home </li>
@@ -41,18 +41,81 @@
     </ul>
 
     <ul>
-        <li>"useradd" permet de créer un utilisateur <br> exemple :<br><img src="./ima/useradd.PNG" width="400"></li>
+        <li>"useradd" permet de créer un utilisateur <br> exemple :<br><img src="./ima/useradd.PNG" width="400"><br> - "-m" permet de 
+          </li>
     </ul>
     <ul>
-        <li>Nom : Deltab</li>
+        <li>""</li>
     </ul>
     <ul>
-        <li>Courriel : mail@reel.mok</li>
+        <li></li>
     </ul>
     <ul>
-        <li>Date de naissane: -5 AVJ</li>
+        <li></li>
     </ul>
-    'ert'
+    <h3>
+        Correctif Exam Noel
+ 
+    </h3>
+            mkdir Examen1Session2022-Mangon-Christophe<br>
+            <br>
+man groupadd<br>
+<br>
+cat /etc/group<br>
+groupadd -g 1362 dev<br>
+groupadd -g 1363 test<br>
+groupadd -g 1364 cloud<br>
+groupadd -g 1361 prodown<br>
+cat /etc/group<br>
+<br>
+man useradd<br>
+<br>
+cat /etc/passwd<br>
+useradd -m -g 1362 -u 1362 -c "Developpeurs" -s /bin/bash dev<br>
+useradd -m -g 1363 -u 1363 -c "Testeurs" -s /bin/bash test<br>
+useradd -m -g 1364 -u 1364 -c "Architectes cloud" -s /bin/bash cloud<br>
+useradd -m -g 1361 -u 1361 -c "Product owners" -s /bin/bash prodown<br>
+cat /etc/passwd<br>
+<br>
+cat /etc/shadow<br>
+passwd dev<br>
+passwd test<br>
+passwd cloud<br>
+passwd prodown<br>
+cat /etc/shadow<br>
+<br>
+cd ~/Examen1Session2022-Mangon-Christophe<br>
+pwd<br>
+mkdir dev<br>
+mkdir test<br>
+mkdir cloud<br>
+mkdir prodown<br>
+mkdir git<br>
+<br>
+<br>
+chown dev:prodown ./dev<br>
+chown test:prodown ./test<br>
+chown cloud:prodown ./cloud<br>
+<br>
+chmod 750 ./cloud<br>
+chmod 750 ./test<br>
+chmod 750 ./dev<br>
+<br>
+chown prodown:prodown ./prodown<br>
+chmod 700 ./prodown<br>
+<br>
+chown prodown:prodown ./git<br>
+chmod 702 ./git<br>
+<br>
+ps -ef | grep root<br>
+ps -u root<br>
+<br>
+ls -lia /root/Examen1Session2022-Mangon-Christophe > /root/Examen1Session2022-Mangon-Christophe/result.txt<br>
+history > /root/Examen1Session2022-Mangon-Christophe/history.txt<br>
+tail /etc/passwd > /root/Examen1Session2022-Mangon-Christophe/passwd.txt<br>
+tail /etc/shadow > /root/Examen1Session2022-Mangon-Christophe/shadow.txt<br>
+tail /etc/group > /root/Examen1Session2022-Mangon-Christophe/group.txt<br>
+tar cvzf /root/Examen1Session2022-Mangon-Christophe.tgz /root/Examen1Session2022-Mangon-Christophe/*<br>
 
 </body>
 </html>
