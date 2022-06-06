@@ -22,3 +22,14 @@ div{
 body{
     color: white;
 }
+button{
+    height:40px;
+    width:200px;
+}
+.logs{
+    position: fixed;
+    right: 0;
+    top: 0;
+
+
+}
