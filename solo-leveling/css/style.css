@@ -1,0 +1,39 @@
+p{
+    color: white;
+}
+
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #000000;
+}
+
+
+li{
+    color: white;
+}
+
+a.img{
+    align-content: center;
+}
+
+div{
+    color: white;
+}
+body{
+    color: white;
+}
+button{
+    height:40px;
+    width:200px;
+}
+.logs{
+    position: fixed;
+    right: 0;
+    top: 0;
+
+
+}
