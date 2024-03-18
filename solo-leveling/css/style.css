@@ -1,14 +1,20 @@
 p{
     color: white;
 }
-
-
 body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     background-color: #000000;
+    width: 40%;
+}
+
+body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    width: 100%;
 }
 
 
@@ -23,9 +29,7 @@ a.img{
 div{
     color: white;
 }
-body{
-    color: white;
-}
+
 button{
     height:40px;
     width:200px;
@@ -37,6 +41,8 @@ button{
 }
 
 h1{
+    align-content: center;
     text-shadow:0 0 20px #00FFFC,2px 3px 3px #141414, 0 0 100px #00D4D1;color:#00FFFC;
     background-color:#000000;
+
 }
